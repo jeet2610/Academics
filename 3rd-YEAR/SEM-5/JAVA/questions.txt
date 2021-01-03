@@ -1,0 +1,6 @@
+fibonacci series.
+two dim array sum
+4sort of 5 numbers using array.
+5write a program to reverse the digits of a given number
+to find factorial of given number.
+6Write a program to read five int numbers from command line and find their sum and average.

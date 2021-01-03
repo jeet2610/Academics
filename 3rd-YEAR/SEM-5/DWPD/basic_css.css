@@ -1,0 +1,106 @@
+body{
+		background-color: #131313;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
+	animation-timing-function:step-end;
+}
+#para1{
+	color: lightblue;
+	font-size: 50px;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+  border-style: double;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+ 	border-style: groove;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-shadow: rgb(255,82,82);
+}
+
+ /*div {
+  width: 100px;
+  height: 50px;
+  animation-name: example1;
+  animation-duration:2s; 
+  background-color: white;
+  position: relative;
+ transition: transform 2s ; 
+ animation-iteration-count: infinite;	
+ animation-direction: alternate-reverse;
+}
+
+/*div:hover {
+	background-color: white;
+  width: 100px;
+  height: 50px;
+  text-transform: none;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform: rotate(360deg);
+
+}
+*/
+@keyframes example {
+	from{background-color: white;}
+	to{background-color: lightblue;}
+}
+@keyframes example {
+	 0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.button1{
+	align-self: center;
+	background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: all;
+}
+.button1:hover{
+	background-color: lightblue;
+}
+
+.divyam{
+	width: 100px;
+  height: 25px;
+background-color: white;
+transition: width 2s;
+
+}
+.divyam:hover{
+	background-color: white;
+	width: 1000px;
+	height: 25px;
+	transition: width 2s;
+}

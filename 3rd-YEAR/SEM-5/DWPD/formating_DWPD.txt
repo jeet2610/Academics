@@ -1,0 +1,24 @@
+Formatting to Use for Practical Submission 
+
+
+HEADER: Top Left write “Sub:Dynamic Web Page Development(DWPD)
+Top right: Er no
+
+FOOTER: Top Left write “PIET-DS, CE”
+Top right: “Page no”
+
+Header & Footer font size 10 with font “times new roman”
+
+Heading: “PRACTICAL no”
+Font size: 16 Times new roman 
+
+Aim:”write aim”
+Font Size: 14 Times new roman
+
+Code: (14 times new roman)
+
+(Paste your code) times new roman font with size 12
+
+Output: (14 times new roman)
+
+(Paste your image) align center

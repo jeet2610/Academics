@@ -1,0 +1,155 @@
+-----------Computer network Security ------------------
+Computer network security consists of measures taken by
+some organizations or business to monitor and prevent
+unauthorized access from the outside attackers/hackers 
+
+----------- privacy ---------------------------------
+Privacy implies both the sender and the receiver
+expects confidentiality The transmitted message ought to be
+sent uniquely to the planned receiver while the message ought
+to be misty for different clients.
+-------------Authentication---------------------------
+Authentication means that the receiver is
+sure of the sender identity, i e , no unauthorised person has
+sent the message 
+------------ Non repudiation -------------------------
+Non Repudiation means that the receiver
+must be able to prove that the received message has come
+from a specific sender The sender must not deny sending a
+message that he or she send
+----------- Threats Of Security ----------------------
+Viruses and Worms
+Intruders
+Insiders
+Criminal
+Organizations
+Terrorists
+Information Warfare
+----------Viruses -------------------------------------
+-> A computer virus is a malicious program that self-replicates via
+copying itself to another program.
+
+->Almost all viruses are connected to an executable document, which
+means the virus may also exist on your pc but it surely cannot infect
+your computer unless you run or open the malicious program.
+->It is important to note that a virus cannot be spread without a human
+action.
+-----------------Worms ------------------------------
+-> Worm is similar to a virus by design and is considered to be a
+sub-class of a virus.
+-> Worms spread from computer to computer , but in contrast to a
+pandemic, it has the functionality to travel without human action.
+
+-------------------Intruders---------------------------
+->  One of the 2 most publicized threats to safety is the intruder
+ which is frequently known as hacker or cracker.
+There Intruders can be classified into three classes :-
+	1)Masqueraider :- 
+ An individual who isn't always authorized to use the computer
+and who penetrates a gadget’s access controls to make the most a
+legitimate consumer’s account.
+	2) Intruders :- 
+ A valid consumer who accesses records, packages, or sources for which
+such access isn't always legal, or who is legal for such access however
+misuses his or her privileges.
+	3) Clandestine user :-
+ An person who takeover supervisory manage of the system and uses
+this control to suppress audit collection.
+
+--------------------Insiders ---------------------------
+-> Insider is a threat to an Organization's Data which can be
+intentionally misused by any legal authority of the organization.
+-------------------Terrorists---------------------------
+-> The terrorists use cyberspace to cause uncertainty.
+-> Cyber attacks occur in two forms, one used to attack data,
+and others focused on control system.
+--------------Information Warfare------------------------
+->Information warfare (IW) is a concept involving the
+warfare area use and management of information and
+verbal exchange era in pursuit of a aggressive advantage
+over an opponent.
+----------------Criminal Organization--------------------
+-> Organized crime is a class of transnational, countrywide, 
+or neighbourhood groupings of fairly centralized
+organizations run through criminals who intend to interact
+in illegal interest, maximum usually for money and profit
+
+-------------Avenue Of Atttack ------------------------
+-> Two reasons for attacks:-
+	1) Specifically targeted by the attacker
+	2) Opportunistic target
+
+----------------Steps In Attack -----------------------
+Step 1 :- Information gathering: The attacker will gather as much information about
+	organization as possible.
+Step 2 :- Determination of target system: Then determine what target systems are
+	available and active.
+Step 3 :- Find vulnerability & suitable tools: To perform a port scan which gives
+	indication of which services are running on target machine.
+Step 4 :- Attack to the target system.
+
+----------------Security Basis ----------------------------
+-> Confidentiality
+-> Integrity
+-> Availability
+--------------- Confidentiality---------------------------
+-> Confidentiality means protecting or securing the data and the information from
+	unauthorized parties.
+------------------Integrity ---------------------------------
+-> It refers to protecting information from being modified by
+unauthorized parties.
+-> Information only has value if it is correct. Information that has
+been tampered with could prove costly.
+-------------------- Availablity ----------------------------
+-> Availability means that information is accessible to authorized
+users. It is basically an assurance that your system and data
+are accessible by authorized users whenever it’s needed.
+
+-----------------Types Of Attack ----------------------------
+ 1) Passive Atacks :-  A Passive attack attempts to learn or
+ make use of information from the system but does not affect 
+ system resource
+ 2) Active Attacks :-  An Active attack attempts to alter system resources or affect
+their operations.
+
+--------------Types of Attack --------------------------
+ backdoors and trapdoors
+ sniffing
+ Spoofing
+ TCP/IP Hacking,
+ Phishing attacks,
+ Distributed DOS,
+ SQL Injection
+ Malware : Viruses , Logic Bombs
+
+------------------------------------------	-----------Hill Cipher----------------------------------------------------
+This multi-letter cipher is developed by the mathematician lester hill in
+1929.
+Formula to Encrypt :-
+		[c1 c2] = [k11 k12 k21 k22] x [1 2] mod 26
+
+--------------------------------------------------PlayFair Cipher ---------------------------------------------------
+-> The Playfair cipher uses a 5 by 5 table containing a key word or phrase.
+-> To encrypt a message, one would break the message into digraph such that, 
+	for example, "HelloWorld" becomes "HE LL OW OR LD", and map them out 
+	on the key table.
+-> Rules :- 
+1) if both letters are the same , add an "x" or "Q" .
+2) if letters appears on the same row of your table , then replace them with rigth side of letter.
+3) if letters appears on the same column of your table , then replace with downwards of the letter.
+4) if the letters doesnot appear to be in same row or column then make a row and replace it with the same column downwards or upwards.
+-> method :- 
+1) in 5 X 5 matrix first write down the key value.
+2) after completing key value complete all the alphabets , taking care no repeating the same letter.
+3) put i and j in the same block.
+----------------------------------Vigenere Cipher-----------------------------------------------------------------
+->  The Vigenère cipher consists of several Caesar ciphers in sequence with
+different shift values. 
+ encryption -  Ci = (Pi + Ki) mod 26
+ decryption -  Pi = (Ci - Ki) mod 26
+
+------------------------------- Caesar Cipher -----------------------------------------------------------------------
+
+-> Encrpytion :- En(x) = (x + n) mod 26
+-> Decryption :- Dn(x) = (x - n) mod 26
+

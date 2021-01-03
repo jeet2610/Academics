@@ -1,0 +1,75 @@
+explain visiblity control in java .
+access specifier in java.
+--> access modifiers to set access levels for classes, variables, methods and constructors.
+-package/friendly
+- public 
+- Protected
+
+
+Constructor :-
+---> A constructor in java is a special method that is used to intialize objects. The constructor is called when an objexty of a class is created . It can be used to set intial values for objects attributes.
+--> properties :
+- A Constructor name is asmae as class name
+- A constructor must have no return type
+- A java Constructor cannot be abstract , static , final and syncronized.
+Example:- 
+class Books{
+	Books(){
+		//block of code
+}
+
+}
+Three types of constructor:-
+1 Default 
+-> Is a constructor which doesnt take any argument .
+-> It has no parameters.
+-> Syntax :-
+		class_name()
+		{
+		//Constructor Defination
+		}
+-> Example :-class A{
+A(){
+	System.out.println("Default constructor called..");
+}
+public static void main(String args[]){
+	A a = new A();
+}
+}
+2 Copy
+-> These are special type of Constructors which takes an objects as an argument ans is used to copy values of data memebers of one object into other object.
+->>> Syntax:
+	classname(const classname &obj){
+	//body of constructor
+} 
+3 Parameterized
+-> These are the constructors with parameters.
+Explain Argument Constructor with example.[3M]
+->Example:-
+class Student{
+	int rollno;
+	String name;
+Student(int r,String n){
+	rollno = r;
+	name = n;
+}
+void displayInformation(){
+	System.out.println(rollno +""+ name);
+}
+public static void main(String args[]){
+	Student s1 = new Student(111,"Kartik");
+	Student s2 = new Student(21,"Bhuvn");
+	s1.displayInformation();
+	s2.displayInformation();
+}
+}
+Explain argument constructor in java [4 M].
+->>
+Difference between Method overloading and method overriding.[3M]
+
+Constructor Overloading
+-> more than one constructor within a same class with same name , but different list of arguments.
+-> This concept is known as COnstructor Overloading and is quite similar to method overloading.
+-> same name and different number of arguments.
+-> Calling of constructor is depending upon the nu8mber and type of argumetn passed.
+ 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; background-color: grey;}
+* {box-sizing: border-box;}
+X
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #fa3344;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #FF6F00;
+  color: white;
+
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<h3 align="center" style="color: white; font-size: 20px;">Feedback Form</h3>
+
+<div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required="">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="">
+    <br>
+    <label for="country">Select your Issue</label>
+    <select id="country" name="country" required="">
+      <option value="bugs">Found bugs?</option>
+      <option value="echo">Echo ?</option>
+      <option value="other">other?</option>
+    </select>
+    <label for="issue">Let us Know your issue</label><br>
+    <input type="text" id="issue" name="other Issue" placeholder="Other issue...">
+<br>
+     <label for="cnumber">Contact Number</label>
+    <input type="tel" id="cnumber" name="cnumber" placeholder="+ countrycode mobileumber" pattern="[+]{1}[0-9]{2}[0-9]{10}" required >
+
+    <label for="subject">FEEDBACK US</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;resize: none;"></textarea>
+    <output name="x" for="fname + lname"></output>
+
+    <input type="submit" value="Submit" onclick="alert('Thankyou')">
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+---> explain class and object with example.
+	A class is a template that specifies the attributes and behaviour of things or objects.
+
+----> It is a logical entity. It can't be physical.
+
+---> example :- 
+class Box{
+	double width =1;
+	double height =1;
+	double depth = 3;
+double volume(){
+	return(width*height*depth);
+}
+}
+------> Calling of method
+syntax :- 
+	object_name.method_name(parameter-list);
+example:- Box B1 = new Box();
+	  B1.volume();
+
+-----> Objects
+--> An entity that has state and behaviour is known as an object.
+--> An object is an instance of a class.
+------> how to declare an object:-
+--> syntax : class_name object_name = new class_name();
+
+Example :
+        Student s1 = new Student();

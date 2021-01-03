@@ -1,0 +1,10 @@
+Garbage collection in JAVA
+garbage means unreferenced objects.
+
+Garbage collection is process of reclaiming the run time unused memory automatically. In other words , it is a way to destroy the unused objects.
+Better memory management.
+Three ways for using garbage collection:-
+	1) By nulling the reference 
+	2) by Assigning a reference to another
+	3) By anonymous object
+	

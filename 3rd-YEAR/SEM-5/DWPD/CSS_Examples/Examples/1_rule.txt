@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    text-align: center;
+    color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Information Technology</p>
+<p>DWPD</p>
+<p>5TH SEM</p>
+
+</body>
+</html>

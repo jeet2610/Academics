@@ -1,0 +1,9 @@
+Q.1 write a program to print 5 city names using command line args.
+
+public class Icognito{
+	public static void main(String args[])
+{
+	System.out.print("Vadodara" + args[0]);	
+	
+}
+}

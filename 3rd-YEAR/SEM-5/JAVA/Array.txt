@@ -1,0 +1,19 @@
+An array is an indexed collection of fixed number of homogeneous data elements.
+The main advantage os arrays is we can represent huge number values by using single variable , so that readability of the code will be improved.
+But , the main disadv of arrays is fixed in size ,. that is once array is created , there is no chance of increasing or decreasing the isze based on our requirement. hence , to use array concept compulsory we should know the size in advance , which may not possible always.
+
+
+
+
+Array Declaration :- 
+	1-d declaration :-  
+			int[] x; - R - bc'z name is clearly seperated from type.
+			int []x;
+			int x[];
+
+Two dimensional :-
+		int[][] x;
+		int   [][]x;
+		int x[][];
+		int[] x[];
+ 

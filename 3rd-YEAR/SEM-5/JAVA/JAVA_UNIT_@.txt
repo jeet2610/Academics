@@ -1,0 +1,7 @@
+ Derived data types are those which used to store multiple values of same type.
+They are made by using any other data type for example, arrays.
+	int a[]= new int[5];
+
+	Literals means constants values like 1, 1234, -45 , 3.14 , "Hello".
+
+In java an identifier can be a class name , method name , variable name or a label.

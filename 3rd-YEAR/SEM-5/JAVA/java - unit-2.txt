@@ -1,0 +1,29 @@
+Advantages of Array:
+	Code Optimization
+	Random Access
+
+Disadvantage:
+	Size Limit
+
+	Two Types of Array:
+		Single Dimensional Array
+		Multi "            "
+
+Single Dimensional Arrays:
+	Declaration Syntax:
+			datatype var-name[];
+				OR
+			datatype[] var-name;
+	example : int Aray[];
+		  int[] Aray[];
+
+Instance of an array in java :
+		arrayRefVar = new datatype[size];
+	Example:
+		 int a[]= new int[5];
+	Declaration, instantiation and initializaton:
+		int a[] = {1,2,3,4};
+
+Multi-Dimensional Arrays :
+		Two Dimensional Array:
+			int[][] intArray = new int[10][20];
